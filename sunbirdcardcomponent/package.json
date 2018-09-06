@@ -1,7 +1,7 @@
 {
   "name": "sunbird-card-component",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Card Web component",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "types": "dist/types/components.d.ts",
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/ttplsudhir/Web-Components.git"
   },
-  "author": "Ionic Team",
+  "author": "Sudhir Sapkal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/ttplsudhir/Web-Components"
   },
-  "homepage": "https://github.com/ionic-team/stencil",
+  "homepage": "https://github.com/ttplsudhir/Web-Components",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
