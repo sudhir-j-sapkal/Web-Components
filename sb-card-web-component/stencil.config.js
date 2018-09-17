@@ -2,10 +2,10 @@ exports.config = {
   bundles: [
     {
       components: [
-        'sb-card',
-        'sb-card-header',
-        'sb-card-content',
-        'sb-card-bottom'
+        'sbcard',
+        'sbcard-header',
+        'sbcard-content',
+        'sbcard-bottom'
       ]
     }
   ]
