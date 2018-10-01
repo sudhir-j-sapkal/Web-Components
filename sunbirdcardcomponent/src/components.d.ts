@@ -37,6 +37,7 @@ declare global {
       'cardimage': string;
       'cardprogress': number;
       'cardtitle': string;
+      'count': string;
     }
   }
 
@@ -66,6 +67,7 @@ declare global {
       'cardimage'?: string;
       'cardprogress'?: number;
       'cardtitle'?: string;
+      'count'?: string;
     }
   }
 }
