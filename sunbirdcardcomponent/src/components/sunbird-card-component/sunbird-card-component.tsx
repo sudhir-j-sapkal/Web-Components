@@ -12,6 +12,11 @@ export class SunbirdCardComponent {
   @Prop() cardprogress: number;
   @Prop() cardbuttonname: string;
   @Prop() cardbuttonurl: string;
+  @Prop() btnName: string = '';
+
+  btnClick(e){
+    console.log("Button Click == ", e);
+  }
 
   render() {
     return (
@@ -21,6 +26,7 @@ export class SunbirdCardComponent {
             <h5 class="card-title">{this.cardtitle}</h5>
             <p class="card-text">{this.carddescription}</p>
             <a href={this.cardbuttonurl} class="btn btn-primary">{this.cardbuttonname}</a>
+            { this.btnName ? <button onClick={ e => this.btnClick(e)}>{this.btnName}</button> : ''}
           </div>
       </div>
     );

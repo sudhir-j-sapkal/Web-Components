@@ -30,6 +30,7 @@ declare global {
 
   namespace StencilComponents {
     interface SunbirdCardComponent {
+      'btnName': string;
       'cardbuttonname': string;
       'cardbuttonurl': string;
       'carddescription': string;
@@ -58,6 +59,7 @@ declare global {
   }
   namespace JSXElements {
     export interface SunbirdCardComponentAttributes extends HTMLAttributes {
+      'btnName'?: string;
       'cardbuttonname'?: string;
       'cardbuttonurl'?: string;
       'carddescription'?: string;
